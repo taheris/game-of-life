@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:contentDescription="@string/description_author"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:background="@drawable/backrepeat" >
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/game_of_life"
+        android:textColor="#ffffff"
+        android:textSize="50sp" />
+    
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/iv_margin"
+        android:layout_marginRight="@dimen/iv_margin"
+        android:contentDescription="@string/description_glider"
+        android:src="@drawable/ic_launcher" />
+    
+</LinearLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llMenu"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/backrepeat"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+    
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:layout_margin="20dp"
+        android:text="@string/menu_game"
+        android:textSize="@dimen/btn_text"
+        android:textStyle="bold" />
+    
+    <Button
+        android:id="@+id/btnLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:layout_margin="20dp"
+        android:text="@string/menu_layout"
+        android:textSize="@dimen/btn_text"
+        android:textStyle="bold" />
+    
+    <Button
+        android:id="@+id/btnAbout"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:layout_margin="20dp"
+        android:text="@string/menu_about"
+        android:textSize="@dimen/btn_text"
+        android:textStyle="bold" />
+    
+</LinearLayout>

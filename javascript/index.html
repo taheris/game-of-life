@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Conway's Game of Life</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/d3.v2.js"></script>
+    <script src="js/game-of-life.js"></script>
+    <script src="js/layouts.js"></script>
+  </head>
+  <body>
+    <div id="controls" class="centre">
+      <input type="button" class="button" value="Run" id="run" />
+      <input type="button" class="button" value="Step" id="step" />
+      <input type="button" class="button" value="Reset" id="reset" />
+      <input type="button" class="button" value="Zoom +" id="zoom-in" />
+      <input type="button" class="button" value="Zoom -" id="zoom-out" />
+      <select id="layout" class="dropdown"></select>
+    </div>
+    <div id="life" class="centre border"></div>
+  </body>
+</html>

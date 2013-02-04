@@ -1,0 +1,31 @@
+.centre {
+    display: table;
+    margin: 1em auto;
+}
+
+.button {
+    height: 2em;
+    margin-left: 1em;
+}
+
+.dropdown {
+    height: 1.9em;
+    margin-left: 1em;
+}
+
+.border {
+    border: 0.1em solid;
+    border-radius: 0.4em;
+}
+
+circle {
+    fill: #fff;
+}
+
+.lived {
+    fill: #fee;
+}
+
+.alive {
+    fill: #a12;
+}

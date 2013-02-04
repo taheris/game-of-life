@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="layouts">
+        <item>Random</item>
+        <item>Glider</item>
+        <item>Goose</item>
+        <item>Spaceship</item>
+        <item>Gun</item>
+        <item>Reflector</item>
+        <item>Spacefiller</item>
+        <item>Replicator</item>
+        <item>Sierpinski</item>
+    </string-array>
+</resources>

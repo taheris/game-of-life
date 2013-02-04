@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Game of Life</string>
+    <string name="description_glider">glider</string>
+    <string name="description_author">author</string>
+    <string name="game_of_life">Game of Life</string>
+    <string name="menu_game">Random Cells</string>
+    <string name="menu_layout">Choose a Layout</string>
+    <string name="menu_about">How It Works</string>
+    <string name="about_intro">The Game of Life is a cellular automaton devised by the mathematician John Horton Conway in 1970. It is a zero-player game, which means its evolution is determined solely by its initial state.</string>
+    <string name="about_rules">The game is played on a two-dimensional grid made up of living or dead cells. Each cell interacts with its eight surrounding neighbours based on the following rules:</string>
+    <string name="about_rule1">1. Any live cell with fewer than two live neighbours dies through underpopulation.</string>
+    <string name="about_rule2">2. Any live cell with more than three live neighbours also dies through overcrowding.</string>
+    <string name="about_rule3">3. Any live cell with two or three neighbours lives on.</string>
+    <string name="about_rule4">4. Any dead cell with three neighbours will come to life.</string>
+    <string name="about_interaction">To get started, go back and press \'Random Cells\' to create a new grid with 15% of the cells alive, and tap the screen to move forward one generation. Double tap the screen to start or stop continuously creating new generations, or pinch zoom in or out to create more or less cells.</string>
+    <string name="about_patterns">Alternatively, go back and press \'Choose a Layout\' to pick from some of the interesting patterns that have already been discovered.</string>
+    <string name="about_alternative">The last two patterns demonstrate alternative rules, where the \'Replicator\' pattern has new cells born with six neighbours as well as three. The \'Sierpinski\' pattern has new cells born with one neighbour only, and lives on with one or two neighbours only.</string>
+</resources>

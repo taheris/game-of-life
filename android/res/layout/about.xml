@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/svAbout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/backrepeat"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:id="@+id/llAbout"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dip" >
+        
+        <TextView
+            android:id="@+id/tvIntro"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:text="@string/about_intro"
+            android:textColor="#ffffff" />
+        
+        <TextView
+            android:id="@+id/tvRules"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:text="@string/about_rules"
+            android:textColor="#ffffff" />
+        
+        <TextView
+            android:id="@+id/tvRule1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:text="@string/about_rule1"
+            android:textColor="#ffffff" />
+        
+        <TextView
+            android:id="@+id/tvRule2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:text="@string/about_rule2"
+            android:textColor="#ffffff" />
+        
+        <TextView
+            android:id="@+id/tvRule3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:text="@string/about_rule3"
+            android:textColor="#ffffff" />
+        
+        <TextView
+            android:id="@+id/tvRule4"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:text="@string/about_rule4"
+            android:textColor="#ffffff" />
+        
+        <TextView
+            android:id="@+id/tvInteraction"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:text="@string/about_interaction"
+            android:textColor="#ffffff" />
+        
+        <TextView
+            android:id="@+id/tvPatterns"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:text="@string/about_patterns"
+            android:textColor="#ffffff" />
+        
+        <TextView
+            android:id="@+id/tvAlternative"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:text="@string/about_alternative"
+            android:textColor="#ffffff" />
+        
+    </LinearLayout>
+</ScrollView>
